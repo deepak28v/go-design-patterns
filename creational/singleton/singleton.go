@@ -1,6 +1,6 @@
 package singleton
 
-// Singleton interface
+// Counter interface
 type Counter interface {
 	AddOne() int
 }
