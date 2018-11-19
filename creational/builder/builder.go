@@ -7,8 +7,9 @@ type BuildProcess interface {
 	SetStructure() BuildProcess
 	GetVehicle() VehicleProduct
 }
+
 //ManufacturingDirector the struct
-type ManufacturingDirector struct{
+type ManufacturingDirector struct {
 	builder BuildProcess
 }
 
